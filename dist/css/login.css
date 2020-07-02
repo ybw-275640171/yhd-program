@@ -1,0 +1,271 @@
+body {
+  width: 100%; }
+
+.header {
+  width: 1349px;
+  height: 82px;
+  box-sizing: border-box;
+  padding: 16px;
+  border: 1px solid #ccc; }
+  .header .wrap {
+    width: 1200px;
+    margin: 0 auto; }
+    .header .wrap a {
+      display: block;
+      width: 145px;
+      height: 55px;
+      box-sizing: border-box;
+      padding: 10px 0;
+      float: left; }
+    .header .wrap .rightwrap {
+      width: 293px;
+      height: 20px;
+      float: right;
+      position: relative; }
+      .header .wrap .rightwrap span {
+        display: block;
+        width: 168px;
+        height: 18px;
+        font-size: 12px;
+        line-height: 20px;
+        color: #666;
+        position: relative;
+        float: left; }
+        .header .wrap .rightwrap span .denglu {
+          display: inline-block;
+          line-height: 0px;
+          width: 36px;
+          height: 18px;
+          position: absolute;
+          color: #666;
+          font-size: 12px;
+          right: 0;
+          top: 0; }
+          .header .wrap .rightwrap span .denglu:hover {
+            color: red; }
+      .header .wrap .rightwrap .help {
+        width: 100px;
+        height: 20px;
+        float: right;
+        box-sizing: border-box; }
+        .header .wrap .rightwrap .help:hover {
+          border-top: 1px solid #ccc; }
+        .header .wrap .rightwrap .help:hover b {
+          color: red; }
+        .header .wrap .rightwrap .help:hover .ullist {
+          display: block !important; }
+        .header .wrap .rightwrap .help .icon-list {
+          width: 16px;
+          height: 18px;
+          float: left;
+          margin-top: 3px; }
+        .header .wrap .rightwrap .help b {
+          display: block;
+          height: 18px;
+          float: left;
+          font-size: 14px;
+          color: #666;
+          cursor: pointer; }
+        .header .wrap .rightwrap .help .bbb {
+          width: 16px;
+          height: 18px;
+          margin-top: 3px;
+          float: left; }
+      .header .wrap .rightwrap .ullist {
+        width: 98px;
+        height: 100px;
+        position: absolute;
+        top: 20px;
+        left: 194px;
+        display: none; }
+        .header .wrap .rightwrap .ullist li:hover .lis {
+          color: red; }
+        .header .wrap .rightwrap .ullist li .lis {
+          width: 98px;
+          height: 25px;
+          background-color: #fff;
+          display: block;
+          line-height: 10px;
+          font-size: 12px;
+          color: #666;
+          text-align: center; }
+
+.loginwrap {
+  width: 1349px;
+  height: 429px;
+  box-sizing: border-box;
+  padding-top: 26px; }
+  .loginwrap .wrapcon {
+    width: 980px;
+    height: 403px;
+    margin: 0 auto; }
+    .loginwrap .wrapcon .wrap1 {
+      width: 510px;
+      height: 315px;
+      float: left;
+      margin-top: 45px; }
+      .loginwrap .wrapcon .wrap1 img {
+        width: 100%;
+        height: 100%; }
+    .loginwrap .wrapcon .wrap2 {
+      float: left;
+      width: 400px;
+      height: 403px;
+      box-sizing: border-box;
+      padding: 45px 35px 0; }
+      .loginwrap .wrapcon .wrap2 .wrap2con {
+        width: 330px;
+        height: 358px; }
+        .loginwrap .wrapcon .wrap2 .wrap2con .conheader {
+          width: 330px;
+          height: 30px; }
+          .loginwrap .wrapcon .wrap2 .wrap2con .conheader h3 {
+            width: 92px;
+            height: 30px;
+            text-align: center;
+            color: #666;
+            font-size: 12px;
+            font-weight: bolder;
+            line-height: 30px;
+            float: left; }
+          .loginwrap .wrapcon .wrap2 .wrap2con .conheader a {
+            display: block;
+            font-size: 12px;
+            line-height: 30px;
+            float: right; }
+            .loginwrap .wrapcon .wrap2 .wrap2con .conheader a:hover {
+              color: red; }
+        .loginwrap .wrapcon .wrap2 .wrap2con .conlogin {
+          width: 330px;
+          height: 214px; }
+          .loginwrap .wrapcon .wrap2 .wrap2con .conlogin .formitem {
+            width: 330px;
+            height: 54px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            padding: 14px 18px;
+            margin-bottom: 10px; }
+            .loginwrap .wrapcon .wrap2 .wrap2con .conlogin .formitem label {
+              width: 42px;
+              height: 24px;
+              display: block;
+              color: #666;
+              font-size: 24px;
+              float: left; }
+            .loginwrap .wrapcon .wrap2 .wrap2con .conlogin .formitem input {
+              width: 233px;
+              height: 24px;
+              border: 0 none;
+              line-height: 24px;
+              vertical-align: middle;
+              font-family: "Microsoft YaHei";
+              font-size: 14px;
+              float: left; }
+          .loginwrap .wrapcon .wrap2 .wrap2con .conlogin .denglu {
+            width: 330px;
+            height: 24px;
+            margin: 10px 0; }
+            .loginwrap .wrapcon .wrap2 .wrap2con .conlogin .denglu .mem {
+              width: 66px;
+              height: 24px;
+              font-size: 12px;
+              color: #666;
+              float: left; }
+            .loginwrap .wrapcon .wrap2 .wrap2con .conlogin .denglu a {
+              width: 60px;
+              height: 24px;
+              font-size: 12px;
+              color: #666;
+              float: right; }
+          .loginwrap .wrapcon .wrap2 .wrap2con .conlogin .btn {
+            width: 330px;
+            height: 52px;
+            border: 0 none;
+            border-radius: 3px;
+            background: #ff3c3c;
+            font-size: 16px;
+            color: #FFF;
+            cursor: pointer;
+            text-shadow: 1px 1px 1px #ff7373;
+            font-family: "Microsoft YaHei";
+            line-height: 52px; }
+          .loginwrap .wrapcon .wrap2 .wrap2con .conlogin .more {
+            width: 330px;
+            height: 96px; }
+            .loginwrap .wrapcon .wrap2 .wrap2con .conlogin .more p {
+              width: 330px;
+              height: 46px;
+              display: block;
+              box-sizing: border-box;
+              padding: 15px 0;
+              color: #666;
+              font-size: 12px; }
+            .loginwrap .wrapcon .wrap2 .wrap2con .conlogin .more .listBox {
+              width: 330px;
+              height: 35px; }
+              .loginwrap .wrapcon .wrap2 .wrap2con .conlogin .more .listBox .list1 {
+                width: 230px;
+                height: 35px;
+                float: left; }
+                .loginwrap .wrapcon .wrap2 .wrap2con .conlogin .more .listBox .list1 li {
+                  float: left;
+                  width: 32px;
+                  height: 35px;
+                  margin-right: 20px; }
+              .loginwrap .wrapcon .wrap2 .wrap2con .conlogin .more .listBox a {
+                float: right;
+                display: block;
+                line-height: 34px;
+                color: #999;
+                font-size: 12px; }
+                .loginwrap .wrapcon .wrap2 .wrap2con .conlogin .more .listBox a .icon-jiantoushang {
+                  font-size: 12px;
+                  color: #666;
+                  display: inline-block; }
+                .loginwrap .wrapcon .wrap2 .wrap2con .conlogin .more .listBox a .icon-ai-arrow-down {
+                  display: none;
+                  font-size: 12px;
+                  color: #666; }
+              .loginwrap .wrapcon .wrap2 .wrap2con .conlogin .more .listBox .list2 {
+                width: 330px;
+                height: 54px;
+                float: left;
+                display: none; }
+                .loginwrap .wrapcon .wrap2 .wrap2con .conlogin .more .listBox .list2 li {
+                  float: left;
+                  width: 82px;
+                  height: 17px;
+                  margin-bottom: 10px; }
+                  .loginwrap .wrapcon .wrap2 .wrap2con .conlogin .more .listBox .list2 li a {
+                    float: left;
+                    font-size: 12px;
+                    color: #666;
+                    display: inline-block;
+                    line-height: 20px;
+                    margin-left: 3px; }
+                    .loginwrap .wrapcon .wrap2 .wrap2con .conlogin .more .listBox .list2 li a img {
+                      display: inline; }
+
+.footer {
+  width: 980px;
+  height: 42px;
+  margin: 0 auto; }
+  .footer .footer1 {
+    float: left;
+    width: 1349px;
+    height: 12px;
+    margin: 0 -180px 20px; }
+    .footer .footer1 a {
+      margin: 0 3px;
+      font-size: 12px;
+      color: #333;
+      line-height: 12px; }
+      .footer .footer1 a:hover {
+        color: #ff4040; }
+  .footer p {
+    color: #666;
+    text-align: center;
+    line-height: 100%;
+    margin: 0 180px;
+    padding: 0;
+    font-size: 12px; }

@@ -1,0 +1,248 @@
+body{
+    width:100%;
+}
+.header{
+    width:1349px;
+    height:82px;
+    box-sizing: border-box;
+    padding:16px;
+    border:1px solid #ccc;
+    .wrap{
+        width:1200px;
+        margin:0 auto;
+        a{
+            display: block;
+            width:145px;
+            height:55px;
+            box-sizing: border-box;
+            padding:10px 0;
+            float: left;
+        }
+        .rightwrap{
+            width:293px;
+            height:20px;
+            float:right;
+            position: relative;
+            span{
+                display: block;
+                width:168px;
+                height:18px;
+                font-size:12px;
+                line-height:20px;
+                color:#666;
+                position: relative;
+                float: left;
+                .denglu{
+                    display: inline-block;
+                    line-height:0px;
+                    width:36px;
+                    height:18px;
+                    position: absolute;
+                    color:#666;
+                    font-size: 12px;
+                    right:0;
+                    top:0;
+                    &:hover{
+                        color:red;
+                    }
+                }
+
+            }
+            .help{
+                width:100px;
+                height:20px;
+                float: right;
+                box-sizing: border-box;
+                &:hover{
+                    border-top:1px solid #ccc;
+                }
+                &:hover b{
+                    color:red;
+                }
+                &:hover .ullist{
+                    display: block!important;
+                }
+                .icon-list{
+                    width:16px;
+                    height:18px;
+                    float:left;
+                    margin-top:3px;
+                }
+                b{
+                    display:block;
+                    height:18px;
+                    float:left;
+                    font-size:14px;
+                    color:#666;
+                    cursor: pointer;
+
+                }
+                .icon-ai-arrow-down{
+                    width:16px;
+                    height:18px;
+                    margin-top:3px;
+                    float:left;
+                }
+            }
+            .ullist{
+                width:98px;
+                height:100px;
+                position: absolute;
+                top:20px;
+                left:194px;
+                display:none;
+                li{
+
+                    &:hover .lis{
+                        color:red;
+                    }
+                    .lis{
+                        width:98px;
+                        height:25px;
+                        background-color:#fff;
+                        display:block;
+                        line-height:10px;
+                        font-size:12px;
+                        color:#666;
+                        text-align: center;
+
+                    }
+                }
+            }
+        }
+    }
+}
+form{
+    width:1000px;
+    height:700px;
+    margin:0 auto;
+    h2{
+        width:1000px;
+        text-align: center;
+        height:60px;
+        font-size:22px;
+        box-sizing: border-box;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        line-height:30px;
+        font-weight: bolder;
+    }
+    div{
+        width:1000px;
+        height:100px;
+        box-sizing:border-box;
+        padding: 28px 98px;
+        @mixin top{
+            display: block;
+            width:200px;
+            height:50px;
+            float: left;
+            text-align:right;
+            line-height:30px;
+            box-sizing: border-box;
+            padding:10px 30px 10px 10px;
+        }
+        @mixin bottom{
+            display: block;
+            width:200px;
+            height:50px;
+            float: left;
+            font-size:12px;
+            line-height:16px;
+            box-sizing: border-box;
+            padding:2px;
+
+        }
+        @mixin input{
+            height:50px;
+            width:400px;
+            float: left;
+            padding:0 10px;
+            box-sizing:border-box;
+
+        }
+        .usernametop,.userphonetop,.userpasstop,.userpasstop1,.subtop{
+            @include top()
+        }
+        input{
+            @include input()
+        }
+        .usernamebottom,.userphonebottom,.userpassbottom,.userpassbottom1,.subbottom{
+            @include bottom()
+        }
+        .useryanzhengtop{
+            @include top()
+        }
+        .useryanzheng{
+            height:50px;
+            width:200px;
+            float: left;
+            padding:0 10px;
+            box-sizing:border-box;
+        }
+        .useryanzhengbottom{
+            display: block;
+            width:200px;
+            height:50px;
+            background-color:#ddd;
+            float: left;
+            font-size:16px;
+            line-height:48px;
+            text-align: center;
+            box-sizing: border-box;
+            border:1px solid #ccc;
+            background-color:#666;
+            cursor: pointer;
+        }
+    }
+    p{
+        height:20px;
+        width:1000px;
+        box-sizing: border-box;
+        padding:0 350px;
+        color:#666;
+        font-size:12px;
+
+        a{
+            display: inline-block;
+        font-size:12px;
+        }
+    }
+    .sub{
+        width:400px;
+        height:50px;
+        background-color:red;
+        color:#fff;
+        box-sizing: border-box;
+        border:none;
+    }
+}
+.footer{
+    width:980px;
+    height:42px;
+    margin:0 auto;
+    .footer1{
+        float:left;
+            width:1349px;
+            height:12px;
+            margin:0 -180px  20px;;
+
+            a{
+                margin:0 3px;
+                font-size:12px;
+                color:#333;
+                line-height: 12px;
+                &:hover{
+                    color:rgb(255, 64, 64);
+                }
+            }
+    }
+    p{
+        color: #666;
+        text-align: center;
+        line-height: 100%;
+        margin:0 180px;
+        padding: 0;
+        font-size:12px;
+    }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/reg.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+</head>
+<body>
+    <div class="header">
+        <div class="wrap">
+            <a href="">
+                <img src="../imgs/reg-logo.png" alt="">
+            </a>
+            <div class="rightwrap">
+                <span>您好，欢迎光临1号店！ <a class="denglu" href="">请登录</a></span>
+                <div class="help">
+                    <i class="iconfont icon-list"></i>
+                    <b>帮助中心</b>
+                    <i class="iconfont icon-ai-arrow-down"></i>
+                    <ul class="ullist">
+                        <li><a class="lis" href="">包裹跟踪</a></li>
+                        <li><a class="lis" href="">常见问题</a></li>
+                        <li><a class="lis" href="">在线退换货</a></li>
+                        <li><a class="lis" href="">在线投诉</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- form -->
+    <form id="f" action="http://localhost/test/2002-cli/dist/html/reg.php" method="POST">
+        <h2>1号店注册</h2>
+        <div>
+            <span class="usernametop">用户名</span>
+            <input name="username" type="text" class="username">
+            <span class="usernamebottom"></span>
+        </div>
+        <div>
+            <span class="userphonetop">手机号</span>
+            <input name="userphone" type="text" class="userphone">
+            <span class="userphonebottom"></span>
+        </div>
+        <div>
+            <span class="useryanzhengtop">短信验证码</span>
+            <input type="text" class="useryanzheng">
+            <span class="useryanzhengbottom">获取验证码</span>
+        </div>
+        <div>
+            <span class="userpasstop">密码</span>
+            <input name="userpass" type="text" class="userpass">
+            <span class="userpassbottom"></span>
+        </div>
+        <div>
+            <span class="userpasstop1">确认密码</span>
+            <input type="text" class="userpass1">
+            <span class="userpassbottom1"></span>
+        </div>
+        <p>点击注册，表示您同意1号店 <a href="">《服务协议及隐私声明》</a></p>
+        <div>
+            <span class="subtop"></span>
+            <input class="sub" type="submit" value="同意协议并注册">
+            <span class="subbottom"></span>
+        </div>
+    </form>
+    <!-- footer -->
+    <div class="footer">
+        <p class="footer1">
+            <a href="">沪ICP备16050468号</a>|
+            <a href="">沪B2-20170039</a>|
+            <a href="">营业执照</a>
+        </p>
+        <p>Copyright© 1号店网上超市 2007-2019，All Rights Reserved</p>
+    </div>
+</body>
+</html>
+<script src="../script/jquery-3.2.1.min.js"></script>
+<script src="../script/reg.js"></script>

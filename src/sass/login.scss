@@ -1,0 +1,330 @@
+body{
+    width:100%;
+}
+.header{
+    width:1349px;
+    height:82px;
+    box-sizing: border-box;
+    padding:16px;
+    border:1px solid #ccc;
+    .wrap{
+        width:1200px;
+        margin:0 auto;
+        a{
+            display: block;
+            width:145px;
+            height:55px;
+            box-sizing: border-box;
+            padding:10px 0;
+            float: left;
+        }
+        .rightwrap{
+            width:293px;
+            height:20px;
+            float:right;
+            position: relative;
+            span{
+                display: block;
+                width:168px;
+                height:18px;
+                font-size:12px;
+                line-height:20px;
+                color:#666;
+                position: relative;
+                float: left;
+                .denglu{
+                    display: inline-block;
+                    line-height:0px;
+                    width:36px;
+                    height:18px;
+                    position: absolute;
+                    color:#666;
+                    font-size: 12px;
+                    right:0;
+                    top:0;
+                    &:hover{
+                        color:red;
+                    }
+                }
+
+            }
+            .help{
+                width:100px;
+                height:20px;
+                float: right;
+                box-sizing: border-box;
+                &:hover{
+                    border-top:1px solid #ccc;
+                }
+                &:hover b{
+                    color:red;
+                }
+                &:hover .ullist{
+                    display: block!important;
+                }
+                .icon-list{
+                    width:16px;
+                    height:18px;
+                    float:left;
+                    margin-top:3px;
+                }
+                b{
+                    display:block;
+                    height:18px;
+                    float:left;
+                    font-size:14px;
+                    color:#666;
+                    cursor: pointer;
+
+                }
+                .bbb{
+                    width:16px;
+                    height:18px;
+                    margin-top:3px;
+                    float:left;
+                }
+            }
+            .ullist{
+                width:98px;
+                height:100px;
+                position: absolute;
+                top:20px;
+                left:194px;
+                display:none;
+                li{
+
+                    &:hover .lis{
+                        color:red;
+                    }
+                    .lis{
+                        width:98px;
+                        height:25px;
+                        background-color:#fff;
+                        display:block;
+                        line-height:10px;
+                        font-size:12px;
+                        color:#666;
+                        text-align: center;
+
+                    }
+                }
+            }
+        }
+    }
+}
+.loginwrap{
+    width:1349px;
+    height:429px;
+    box-sizing: border-box;
+    padding-top:26px;
+    .wrapcon{
+        width:980px;
+        height:403px;
+        margin:0 auto;
+        .wrap1{
+            width:510px;
+            height:315px;
+            float: left;
+            margin-top:45px;
+            img{
+                width:100%;
+                height:100%;
+            }
+        }
+        .wrap2{
+            float: left;
+            width:400px;
+            height:403px;
+            box-sizing:border-box;
+            padding:45px 35px 0;
+            .wrap2con{
+                width:330px;
+                height:358px;
+                .conheader{
+                    width:330px;
+                    height:30px;
+                    h3{
+                        width:92px;
+                        height:30px;
+                        text-align: center;
+                        color:#666;
+                        font-size:12px;
+                        font-weight:bolder;
+                        line-height:30px;
+                        float: left;
+                    }
+                    a{
+                        display: block;
+                        font-size: 12px;
+                        line-height:30px;
+                        float:right;
+                        &:hover{
+                            color:red;
+                           
+                        }
+                    }
+                }
+                .conlogin{
+                    width: 330px;
+                    height:214px;
+                    .formitem{
+                        width:330px;
+                        height:54px;
+                        box-sizing: border-box;
+                        border:1px solid #ccc;
+                        padding:14px 18px;
+                        margin-bottom: 10px;
+                        label{
+                            width:42px;
+                            height:24px;
+                            display: block;
+                            color:#666;
+                            font-size:24px;
+                            float: left;
+                        }
+                        input{
+                            width:233px;
+                            height:24px;
+                            border: 0 none;
+                            line-height: 24px;
+                            vertical-align: middle;
+                            font-family: "Microsoft YaHei";
+                            font-size: 14px;
+                            float: left;
+                        }
+                    }
+                    .denglu{
+                        width:330px;
+                        height:24px;
+                        margin:10px 0;
+                        .mem{
+                            width:66px;
+                            height:24px;
+                            font-size:12px;
+                            color:#666;
+                            float:left;
+                        }
+                        a{
+                            width:60px;
+                            height:24px;
+                            font-size:12px;
+                            color:#666;
+                            float:right;
+                        }
+                    }
+                    .btn{
+                        width: 330px;
+                        height: 52px;
+                        border: 0 none;
+                        border-radius: 3px;
+                        background: #ff3c3c;
+                        font-size: 16px;
+                        color: #FFF;
+                        cursor: pointer;
+                        text-shadow: 1px 1px 1px #ff7373;
+                        font-family: "Microsoft YaHei";
+                        line-height: 52px;
+
+                    }
+                    .more{
+                        width:330px;
+                        height:96px;
+                        p{
+                            width:330px;
+                            height:46px;
+                            display: block;
+                            box-sizing: border-box;
+                            padding:15px 0;
+                            color:#666;
+                            font-size:12px;
+                        }
+                        .listBox{
+                            width:330px;
+                            height:35px;
+                            .list1{
+                                width:230px;
+                                height:35px;
+                                float: left;
+                                li{
+                                    float: left;
+                                    width:32px;
+                                    height:35px;
+                                    margin-right:20px;
+                                }
+                            }
+                            a{
+                                float: right;
+                                display: block;
+                                line-height: 34px;
+                                color: #999;
+                                font-size: 12px;
+                                .icon-jiantoushang{
+                                    font-size:12px;
+                                    color:#666;
+                                    display:inline-block;
+                                }
+                                .icon-ai-arrow-down{
+                                    display:none;
+                                    font-size:12px;
+                                    color:#666;
+                                }
+                            }
+                            .list2{
+                                width:330px;
+                                height:54px;
+                                float: left;
+                                display: none;
+                                li{
+                                    float: left;
+                                    width:82px;
+                                    height:17px;
+                                    margin-bottom:10px;
+                                    a{  
+                                        float: left;
+                                        font-size:12px;
+                                        color:#666;
+                                        display: inline-block;
+                                        line-height:20px;
+                                        margin-left:3px;
+                                        img{
+                                            display: inline;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.footer{
+    width:980px;
+    height:42px;
+    margin:0 auto;
+    .footer1{
+        float:left;
+            width:1349px;
+            height:12px;
+            margin:0 -180px 20px;
+
+            a{
+                margin:0 3px;
+                font-size:12px;
+                color:#333;
+                line-height: 12px;
+                &:hover{
+                    color:rgb(255, 64, 64);
+                }
+            }
+    }
+    p{
+        color: #666;
+        text-align: center;
+        line-height: 100%;
+        margin:0 180px;
+        padding: 0;
+        font-size:12px;
+    }
+}
