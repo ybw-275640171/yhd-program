@@ -1,5 +1,6 @@
 <?php
     header("content-type:text/html;charset=utf-8");
+    header('Access-Control-Allow-Origin:*'); 
     $name = $_GET['username'];
     $link = mysqli_connect("localhost","root","root","h5-2002");
     if(!$link){

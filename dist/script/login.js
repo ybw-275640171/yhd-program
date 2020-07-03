@@ -19,7 +19,7 @@ var pass = document.getElementById('pass');
 var formitem = document.getElementsByClassName('formitem');
 $('.btn').eq(0).click(function () {
   var xhr = new XMLHttpRequest();
-  xhr.open("post", "login.php", true);
+  xhr.open("post", "http://localhost/test/2002-cli/dist/html/login.php", true);
 
   xhr.onreadystatechange = function () {
     var result = xhr.responseText;

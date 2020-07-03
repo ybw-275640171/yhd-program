@@ -14,7 +14,7 @@ var isRight = [0, 0, 0, 0];
 oUser.onblur = function () {
   isUser();
   var xhr = new XMLHttpRequest();
-  xhr.open("get", "checkUser.php?username=" + this.value, true);
+  xhr.open("get", "http://localhost/test/2002-cli/dist/html/checkUser.php?username=" + this.value, true);
 
   xhr.onreadystatechange = function () {
     if (xhr.readyState == 4 && xhr.status == 200) {
